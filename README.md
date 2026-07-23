@@ -1,4 +1,15 @@
 ﻿# Terminal-Performance-Manager
+
+
+# Why i am making this
+
+- This is something i am making because
+- when i run the comamnd prompt with the claude code so i open the task manager
+- when i click on it so my claude code gets disappear
+- when click the terminal of claude code so the task manager gets disappear
+- i cant minimize like in size because there are alot of windows and other things
+
+
 - The firs commit includes 6-8 lines of CPU Tracking Logic
 - I am thinking to first complete it and then will get somehting else
 - like making it first complete as per for now the CPU Usge looking like this
