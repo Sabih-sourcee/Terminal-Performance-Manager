@@ -1,19 +1,32 @@
-﻿# Terminal-Performance-Manager
+# Terminal-Performance-Manager
 
+A real-time, terminal-based system monitor designed to track CPU usage alongside command-line tools (like Claude Code) directly in your terminal.
 
-# Why i am making this
+## Why i am making this
+When running terminal tools alongside system performance monitors (like Task Manager), switching focus often hides windows or clutter the workspace. Terminal-Performance-Manager solves this by giving a lightweight, inline performance readout directly in the terminal interface, avoiding window context switching and allowing remote tracking.
 
-- This is something i am making because
-- when i run the comamnd prompt with the claude code so i open the task manager
-- when i click on it so my claude code gets disappear
-- when click the terminal of claude code so the task manager gets disappear
-- i cant minimize like in size because there are alot of windows and other things
-- so this is a big problem i am facing in it so thas why i am making this projec to track the performance live in terminal direct with the claude code and in my other laptop also can see directly their
+## What are the things i am adding and wanted to add
+- Real-Time CPU Monitoring: Live updates of your system's CPU usage directly inside the terminal.
+- Minimal Footprint: Fast and lightweight tracking logic written in Python/Node.
+- Color-Coded Status Thresholds:
+  -  **Normal (< 50%):** Standard output
+  -  **Warning (50% - 75%):** Highlighted in Yellow
+  -  **High (75% - 80%):** Highlighted in Orange
+  -  **Critical (> 80%):** Highlighted in Red
 
+## Tech Stack
+- **Language:** Python / JavaScript / C++ *(Update to match your stack)*
+- **Libraries:** psutil *(or whichever library you are using for system metrics)*
 
-- The firs commit includes 6-8 lines of CPU Tracking Logic
-- I am thinking to first complete it and then will get somehting else
-- like making it first complete as per for now the CPU Usge looking like this
-- <img width="319" height="58" alt="image" src="https://github.com/user-attachments/assets/f5c47b39-5d89-418b-b2d1-06d728f6527b" />
-- it can be more nice in looks if i do something like adding colours of when the usage is more than the 50 make the colour to yellow
-- when get more than 75 the colour will be orange and more than 80 will be red colour 
+## 📦 How to Install & Run
+
+### Prerequisites
+Make sure you have installed:
+- Python 3.x / Node.js
+- Dependencies listed in `requirements.txt` / `package.json`
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/Sabih-sourcee/Terminal-Performance-Manager.git](https://github.com/Sabih-sourcee/Terminal-Performance-Manager.git)
+   cd Terminal-Performance-Manager
