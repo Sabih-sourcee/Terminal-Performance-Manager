@@ -8,6 +8,7 @@
 - when i click on it so my claude code gets disappear
 - when click the terminal of claude code so the task manager gets disappear
 - i cant minimize like in size because there are alot of windows and other things
+- so this is a big problem i am facing in it so thas why i am making this projec to track the performance live in terminal direct with the claude code and in my other laptop also can see directly their
 
 
 - The firs commit includes 6-8 lines of CPU Tracking Logic
