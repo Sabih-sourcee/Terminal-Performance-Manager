@@ -1,32 +1,34 @@
 # Terminal-Performance-Manager
 
-A real-time, terminal-based system monitor designed to track CPU usage alongside command-line tools (like Claude Code) directly in your terminal.
+A real-time CPU monitor that lives in your terminal instead of stealing your window focus.
 
-## Why i am making this
-When running terminal tools alongside system performance monitors (like Task Manager), switching focus often hides windows or clutter the workspace. Terminal-Performance-Manager solves this by giving a lightweight, inline performance readout directly in the terminal interface, avoiding window context switching and allowing remote tracking.
+## Why
 
-## What are the things i am adding and wanted to add
-- Real-Time CPU Monitoring: Live updates of your system's CPU usage directly inside the terminal.
-- Minimal Footprint: Fast and lightweight tracking logic written in Python/Node.
-- Color-Coded Status Thresholds:
-  -  **Normal (< 50%):** Standard output
-  -  **Warning (50% - 75%):** Highlighted in Yellow
-  -  **High (75% - 80%):** Highlighted in Orange
-  -  **Critical (> 80%):** Highlighted in Red
+I kept alt-tabbing to Task Manager while running Claude Code in the terminal, and every switch broke my flow and cluttered the desktop. This just prints CPU usage inline, so I never have to leave the terminal to check if something's about to choke.
 
-## Tech Stack
-- **Language:** Python / JavaScript / C++ *(Update to match your stack)*
-- **Libraries:** psutil *(or whichever library you are using for system metrics)*
+## Features
 
-## 📦 How to Install & Run
+- Live CPU usage, updates in place, no flicker
+- Small footprint — this is a monitor, not a resource hog itself
+- Color-coded thresholds so you can tell at a glance:
+  - under 50% — normal text
+  - 50–75% — yellow
+  - 75–80% — orange
+  - over 80% — red
 
-### Prerequisites
-Make sure you have installed:
-- Python 3.x / Node.js
-- Dependencies listed in `requirements.txt` / `package.json`
+## Stack
+Python, using `psutil` for the metrics.
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/Sabih-sourcee/Terminal-Performance-Manager.git](https://github.com/Sabih-sourcee/Terminal-Performance-Manager.git)
-   cd Terminal-Performance-Manager
+## Install
+
+```bash
+git clone https://github.com/Sabih-sourcee/Terminal-Performance-Manager.git
+cd Terminal-Performance-Manager
+pip install rich; pip install psutil
+```
+
+Run:
+
+```bash
+python monitor.py
+```
