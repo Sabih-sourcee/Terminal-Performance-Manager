@@ -11,9 +11,8 @@ I kept alt-tabbing to Task Manager while running Claude Code in the terminal, an
 - Live CPU usage, updates in place, no flicker
 - Small footprint — this is a monitor, not a resource hog itself
 - Color-coded thresholds so you can tell at a glance:
-  - under 50% — normal text
+  - under 50% — green
   - 50–75% — yellow
-  - 75–80% — orange
   - over 80% — red
 
 ## Stack
