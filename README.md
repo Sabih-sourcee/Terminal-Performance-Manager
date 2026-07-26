@@ -31,3 +31,7 @@ Run:
 ```bash
 python monitor.py
 ```
+
+# process tracking
+- IDK about that i need to add the OOPS at this project
+- when i have started the plan then realise that for the better UI and Working of project i need to use OOPS
