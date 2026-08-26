@@ -20,17 +20,7 @@ Python, using `psutil` for the metrics.
 
 ## Install
 
-```bash
-git clone https://github.com/Sabih-sourcee/Terminal-Performance-Manager.git
-cd Terminal-Performance-Manager
-pip install rich; pip install psutil
-```
-
-Run:
-
-```bash
-python monitor.py
-```
+- Well the final release have the optimized terminal performance manager and you can directly download it without any changes in code through the dist folder or through release
 
 # process tracking
 

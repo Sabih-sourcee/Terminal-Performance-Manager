@@ -50,9 +50,9 @@
    'C:\\Users\\FATTANI '
    'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
    'PYSOURCE'),
-  ('monitor',
+  ('monitor_oops',
    'C:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\monitor.py',
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\monitor_oops.py',
    'PYSOURCE'),
   ('python314.dll',
    'C:\\Users\\FATTANI '
@@ -118,6 +118,10 @@
    'C:\\Users\\FATTANI '
    'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_asyncio.pyd',
    'EXTENSION'),
+  ('_uuid.pyd',
+   'C:\\Users\\FATTANI '
+   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_uuid.pyd',
+   'EXTENSION'),
   ('_wmi.pyd',
    'C:\\Users\\FATTANI '
    'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_wmi.pyd',
@@ -150,6 +154,30 @@
    'C:\\Users\\FATTANI '
    'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\python3.dll',
    'BINARY'),
+  ('textual-8.2.8.dist-info\\licenses\\LICENSE',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual-8.2.8.dist-info\\licenses\\LICENSE',
+   'DATA'),
+  ('textual-8.2.8.dist-info\\WHEEL',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual-8.2.8.dist-info\\WHEEL',
+   'DATA'),
+  ('textual-8.2.8.dist-info\\REQUESTED',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual-8.2.8.dist-info\\REQUESTED',
+   'DATA'),
+  ('textual-8.2.8.dist-info\\INSTALLER',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual-8.2.8.dist-info\\INSTALLER',
+   'DATA'),
+  ('textual-8.2.8.dist-info\\METADATA',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual-8.2.8.dist-info\\METADATA',
+   'DATA'),
+  ('textual-8.2.8.dist-info\\RECORD',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual-8.2.8.dist-info\\RECORD',
+   'DATA'),
   ('base_library.zip',
    'C:\\Users\\FATTANI '
    'COMPUTERS\\Documents\\Terminal-Performance-Manager\\build\\TerminalPerformanceManager\\base_library.zip',

@@ -1,5 +1,5 @@
 (['C:\\Users\\FATTANI '
-  'COMPUTERS\\Documents\\Terminal-Performance-Manager\\monitor.py'],
+  'COMPUTERS\\Documents\\Terminal-Performance-Manager\\monitor_oops.py'],
  ['C:\\Users\\FATTANI COMPUTERS\\Documents\\Terminal-Performance-Manager'],
  [],
  [('c:\\Users\\FATTANI '
@@ -30,9 +30,9 @@
    'C:\\Users\\FATTANI '
    'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
    'PYSOURCE'),
-  ('monitor',
+  ('monitor_oops',
    'C:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\monitor.py',
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\monitor_oops.py',
    'PYSOURCE')],
  [('subprocess',
    'C:\\Users\\FATTANI '
@@ -722,14 +722,6 @@
    'C:\\Users\\FATTANI '
    'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\multiprocessing\\__init__.py',
    'PYMODULE'),
-  ('_py_abc',
-   'C:\\Users\\FATTANI '
-   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\_py_abc.py',
-   'PYMODULE'),
-  ('stringprep',
-   'C:\\Users\\FATTANI '
-   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\stringprep.py',
-   'PYMODULE'),
   ('_py_warnings',
    'C:\\Users\\FATTANI '
    'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\_py_warnings.py',
@@ -738,9 +730,141 @@
    'C:\\Users\\FATTANI '
    'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\tracemalloc.py',
    'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\FATTANI '
+   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\stringprep.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\FATTANI '
+   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\_py_abc.py',
+   'PYMODULE'),
   ('codeop',
    'C:\\Users\\FATTANI '
    'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\codeop.py',
+   'PYMODULE'),
+  ('textual.widgets',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\__init__.py',
+   'PYMODULE'),
+  ('textual.widgets._welcome',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_welcome.py',
+   'PYMODULE'),
+  ('textual.containers',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\containers.py',
+   'PYMODULE'),
+  ('textual.reactive',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\reactive.py',
+   'PYMODULE'),
+  ('textual.dom',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\dom.py',
+   'PYMODULE'),
+  ('rich.panel',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\panel.py',
+   'PYMODULE'),
+  ('rich',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\__init__.py',
+   'PYMODULE'),
+  ('rich._unicode_data.unicode9-0-0',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode9-0-0.py',
+   'PYMODULE'),
+  ('rich._unicode_data.unicode8-0-0',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode8-0-0.py',
+   'PYMODULE'),
+  ('rich._unicode_data.unicode7-0-0',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode7-0-0.py',
+   'PYMODULE'),
+  ('rich._unicode_data.unicode6-3-0',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode6-3-0.py',
+   'PYMODULE'),
+  ('rich._unicode_data.unicode6-2-0',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode6-2-0.py',
+   'PYMODULE'),
+  ('rich._unicode_data.unicode6-1-0',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode6-1-0.py',
+   'PYMODULE'),
+  ('rich._unicode_data.unicode6-0-0',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode6-0-0.py',
+   'PYMODULE'),
+  ('rich._unicode_data.unicode5-2-0',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode5-2-0.py',
+   'PYMODULE'),
+  ('rich._unicode_data.unicode5-1-0',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode5-1-0.py',
+   'PYMODULE'),
+  ('rich._unicode_data.unicode5-0-0',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode5-0-0.py',
+   'PYMODULE'),
+  ('rich._unicode_data.unicode4-1-0',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode4-1-0.py',
+   'PYMODULE'),
+  ('rich._unicode_data.unicode17-0-0',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode17-0-0.py',
+   'PYMODULE'),
+  ('rich._unicode_data.unicode16-0-0',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode16-0-0.py',
+   'PYMODULE'),
+  ('rich._unicode_data.unicode15-1-0',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode15-1-0.py',
+   'PYMODULE'),
+  ('rich._unicode_data.unicode15-0-0',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode15-0-0.py',
+   'PYMODULE'),
+  ('rich._unicode_data.unicode14-0-0',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode14-0-0.py',
+   'PYMODULE'),
+  ('rich._unicode_data.unicode13-0-0',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode13-0-0.py',
+   'PYMODULE'),
+  ('rich._unicode_data.unicode12-1-0',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode12-1-0.py',
+   'PYMODULE'),
+  ('rich._unicode_data.unicode12-0-0',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode12-0-0.py',
+   'PYMODULE'),
+  ('rich._unicode_data.unicode11-0-0',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode11-0-0.py',
+   'PYMODULE'),
+  ('rich._unicode_data.unicode10-0-0',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode10-0-0.py',
+   'PYMODULE'),
+  ('rich._unicode_data._versions',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\_versions.py',
+   'PYMODULE'),
+  ('rich._unicode_data',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\__init__.py',
+   'PYMODULE'),
+  ('rich._inspect',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_inspect.py',
    'PYMODULE'),
   ('rich.table',
    'c:\\Users\\FATTANI '
@@ -750,25 +874,49 @@
    'c:\\Users\\FATTANI '
    'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_timer.py',
    'PYMODULE'),
-  ('rich.highlighter',
+  ('rich.protocol',
    'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\highlighter.py',
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\protocol.py',
    'PYMODULE'),
-  ('rich.text',
+  ('rich._ratio',
    'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\text.py',
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_ratio.py',
    'PYMODULE'),
-  ('rich.ansi',
+  ('rich._pick',
    'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\ansi.py',
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_pick.py',
    'PYMODULE'),
-  ('pty',
+  ('rich._loop',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_loop.py',
+   'PYMODULE'),
+  ('rich.control',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\control.py',
+   'PYMODULE'),
+  ('rich._extension',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_extension.py',
+   'PYMODULE'),
+  ('rich.traceback',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\traceback.py',
+   'PYMODULE'),
+  ('rich.theme',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\theme.py',
+   'PYMODULE'),
+  ('configparser',
    'C:\\Users\\FATTANI '
-   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\pty.py',
+   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\configparser.py',
    'PYMODULE'),
-  ('tty',
-   'C:\\Users\\FATTANI '
-   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\tty.py',
+  ('rich.default_styles',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\default_styles.py',
+   'PYMODULE'),
+  ('rich.syntax',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\syntax.py',
    'PYMODULE'),
   ('rich.color',
    'c:\\Users\\FATTANI '
@@ -782,10 +930,6 @@
    'c:\\Users\\FATTANI '
    'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\palette.py',
    'PYMODULE'),
-  ('rich.repr',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\repr.py',
-   'PYMODULE'),
   ('rich.color_triplet',
    'c:\\Users\\FATTANI '
    'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\color_triplet.py',
@@ -798,69 +942,17 @@
    'C:\\Users\\FATTANI '
    'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\colorsys.py',
    'PYMODULE'),
-  ('rich.markup',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\markup.py',
-   'PYMODULE'),
-  ('rich._emoji_replace',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_emoji_replace.py',
-   'PYMODULE'),
-  ('rich._emoji_codes',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_emoji_codes.py',
-   'PYMODULE'),
-  ('rich.emoji',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\emoji.py',
-   'PYMODULE'),
-  ('rich.columns',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\columns.py',
-   'PYMODULE'),
-  ('rich.constrain',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\constrain.py',
-   'PYMODULE'),
-  ('rich.control',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\control.py',
-   'PYMODULE'),
   ('rich.containers',
    'c:\\Users\\FATTANI '
    'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\containers.py',
    'PYMODULE'),
-  ('rich.cells',
+  ('pygments.styles',
    'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\cells.py',
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\pygments\\styles\\__init__.py',
    'PYMODULE'),
-  ('rich._unicode_data',
+  ('pygments.styles._mapping',
    'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\__init__.py',
-   'PYMODULE'),
-  ('rich._unicode_data._versions',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\_versions.py',
-   'PYMODULE'),
-  ('rich._wrap',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_wrap.py',
-   'PYMODULE'),
-  ('rich.style',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\style.py',
-   'PYMODULE'),
-  ('rich.segment',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\segment.py',
-   'PYMODULE'),
-  ('rich.syntax',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\syntax.py',
-   'PYMODULE'),
-  ('pygments.util',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\pygments\\util.py',
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\pygments\\styles\\_mapping.py',
    'PYMODULE'),
   ('pygments',
    'c:\\Users\\FATTANI '
@@ -1049,10 +1141,6 @@
   ('pygments.styles.abap',
    'c:\\Users\\FATTANI '
    'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\pygments\\styles\\abap.py',
-   'PYMODULE'),
-  ('pygments.styles._mapping',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\pygments\\styles\\_mapping.py',
    'PYMODULE'),
   ('pygments.lexers.zig',
    'c:\\Users\\FATTANI '
@@ -2166,33 +2254,17 @@
    'c:\\Users\\FATTANI '
    'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\pygments\\formatters\\__init__.py',
    'PYMODULE'),
-  ('pygments.plugin',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\pygments\\plugin.py',
-   'PYMODULE'),
   ('pygments.formatter',
    'c:\\Users\\FATTANI '
    'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\pygments\\formatter.py',
    'PYMODULE'),
-  ('pygments.token',
+  ('pygments.plugin',
    'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\pygments\\token.py',
-   'PYMODULE'),
-  ('pygments.styles',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\pygments\\styles\\__init__.py',
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\pygments\\plugin.py',
    'PYMODULE'),
   ('pygments.style',
    'c:\\Users\\FATTANI '
    'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\pygments\\style.py',
-   'PYMODULE'),
-  ('pygments.lexers',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\pygments\\lexers\\__init__.py',
-   'PYMODULE'),
-  ('pygments.modeline',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\pygments\\modeline.py',
    'PYMODULE'),
   ('pygments.lexer',
    'c:\\Users\\FATTANI '
@@ -2210,9 +2282,41 @@
    'c:\\Users\\FATTANI '
    'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\pygments\\filter.py',
    'PYMODULE'),
-  ('rich.protocol',
+  ('rich.scope',
    'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\protocol.py',
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\scope.py',
+   'PYMODULE'),
+  ('rich.constrain',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\constrain.py',
+   'PYMODULE'),
+  ('pygments.util',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\pygments\\util.py',
+   'PYMODULE'),
+  ('pygments.token',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\pygments\\token.py',
+   'PYMODULE'),
+  ('pygments.lexers',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\pygments\\lexers\\__init__.py',
+   'PYMODULE'),
+  ('pygments.modeline',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\pygments\\modeline.py',
+   'PYMODULE'),
+  ('rich.themes',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\themes.py',
+   'PYMODULE'),
+  ('rich.errors',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\errors.py',
+   'PYMODULE'),
+  ('rich.segment',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\segment.py',
    'PYMODULE'),
   ('rich.padding',
    'c:\\Users\\FATTANI '
@@ -2226,125 +2330,21 @@
    'c:\\Users\\FATTANI '
    'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\jupyter.py',
    'PYMODULE'),
-  ('rich.align',
+  ('rich.cells',
    'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\align.py',
-   'PYMODULE'),
-  ('rich.panel',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\panel.py',
-   'PYMODULE'),
-  ('rich._ratio',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_ratio.py',
-   'PYMODULE'),
-  ('rich._pick',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_pick.py',
-   'PYMODULE'),
-  ('rich._loop',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_loop.py',
-   'PYMODULE'),
-  ('rich.errors',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\errors.py',
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\cells.py',
    'PYMODULE'),
   ('rich.box',
    'c:\\Users\\FATTANI '
    'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\box.py',
    'PYMODULE'),
-  ('rich',
+  ('rich.align',
    'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\__init__.py',
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\align.py',
    'PYMODULE'),
-  ('rich._unicode_data.unicode9-0-0',
+  ('rich.columns',
    'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode9-0-0.py',
-   'PYMODULE'),
-  ('rich._unicode_data.unicode8-0-0',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode8-0-0.py',
-   'PYMODULE'),
-  ('rich._unicode_data.unicode7-0-0',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode7-0-0.py',
-   'PYMODULE'),
-  ('rich._unicode_data.unicode6-3-0',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode6-3-0.py',
-   'PYMODULE'),
-  ('rich._unicode_data.unicode6-2-0',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode6-2-0.py',
-   'PYMODULE'),
-  ('rich._unicode_data.unicode6-1-0',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode6-1-0.py',
-   'PYMODULE'),
-  ('rich._unicode_data.unicode6-0-0',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode6-0-0.py',
-   'PYMODULE'),
-  ('rich._unicode_data.unicode5-2-0',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode5-2-0.py',
-   'PYMODULE'),
-  ('rich._unicode_data.unicode5-1-0',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode5-1-0.py',
-   'PYMODULE'),
-  ('rich._unicode_data.unicode5-0-0',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode5-0-0.py',
-   'PYMODULE'),
-  ('rich._unicode_data.unicode4-1-0',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode4-1-0.py',
-   'PYMODULE'),
-  ('rich._unicode_data.unicode17-0-0',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode17-0-0.py',
-   'PYMODULE'),
-  ('rich._unicode_data.unicode16-0-0',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode16-0-0.py',
-   'PYMODULE'),
-  ('rich._unicode_data.unicode15-1-0',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode15-1-0.py',
-   'PYMODULE'),
-  ('rich._unicode_data.unicode15-0-0',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode15-0-0.py',
-   'PYMODULE'),
-  ('rich._unicode_data.unicode14-0-0',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode14-0-0.py',
-   'PYMODULE'),
-  ('rich._unicode_data.unicode13-0-0',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode13-0-0.py',
-   'PYMODULE'),
-  ('rich._unicode_data.unicode12-1-0',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode12-1-0.py',
-   'PYMODULE'),
-  ('rich._unicode_data.unicode12-0-0',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode12-0-0.py',
-   'PYMODULE'),
-  ('rich._unicode_data.unicode11-0-0',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode11-0-0.py',
-   'PYMODULE'),
-  ('rich._unicode_data.unicode10-0-0',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_unicode_data\\unicode10-0-0.py',
-   'PYMODULE'),
-  ('rich._inspect',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_inspect.py',
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\columns.py',
    'PYMODULE'),
   ('rich.pretty',
    'c:\\Users\\FATTANI '
@@ -2354,81 +2354,9 @@
    'c:\\Users\\FATTANI '
    'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\abc.py',
    'PYMODULE'),
-  ('rich._extension',
+  ('textual.worker',
    'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_extension.py',
-   'PYMODULE'),
-  ('rich.traceback',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\traceback.py',
-   'PYMODULE'),
-  ('rich.theme',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\theme.py',
-   'PYMODULE'),
-  ('configparser',
-   'C:\\Users\\FATTANI '
-   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\configparser.py',
-   'PYMODULE'),
-  ('rich.default_styles',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\default_styles.py',
-   'PYMODULE'),
-  ('rich.scope',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\scope.py',
-   'PYMODULE'),
-  ('rich.themes',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\themes.py',
-   'PYMODULE'),
-  ('rich.console',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\console.py',
-   'PYMODULE'),
-  ('getpass',
-   'C:\\Users\\FATTANI '
-   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\getpass.py',
-   'PYMODULE'),
-  ('rich._windows_renderer',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_windows_renderer.py',
-   'PYMODULE'),
-  ('rich._win32_console',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_win32_console.py',
-   'PYMODULE'),
-  ('rich.json',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\json.py',
-   'PYMODULE'),
-  ('rich.rule',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\rule.py',
-   'PYMODULE'),
-  ('rich.status',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\status.py',
-   'PYMODULE'),
-  ('rich.spinner',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\spinner.py',
-   'PYMODULE'),
-  ('rich._spinners',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_spinners.py',
-   'PYMODULE'),
-  ('rich.live',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\live.py',
-   'PYMODULE'),
-  ('typing_extensions',
-   'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\typing_extensions.py',
-   'PYMODULE'),
-  ('asyncio.coroutines',
-   'C:\\Users\\FATTANI '
-   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\asyncio\\coroutines.py',
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\worker.py',
    'PYMODULE'),
   ('asyncio',
    'C:\\Users\\FATTANI '
@@ -2590,9 +2518,257 @@
    'C:\\Users\\FATTANI '
    'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\asyncio\\format_helpers.py',
    'PYMODULE'),
+  ('asyncio.coroutines',
+   'C:\\Users\\FATTANI '
+   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\asyncio\\coroutines.py',
+   'PYMODULE'),
   ('asyncio.constants',
    'C:\\Users\\FATTANI '
    'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\asyncio\\constants.py',
+   'PYMODULE'),
+  ('textual.screen',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\screen.py',
+   'PYMODULE'),
+  ('textual.command',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\command.py',
+   'PYMODULE'),
+  ('textual.widgets.option_list',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\option_list.py',
+   'PYMODULE'),
+  ('textual.visual',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\visual.py',
+   'PYMODULE'),
+  ('textual.strip',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\strip.py',
+   'PYMODULE'),
+  ('textual.filter',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\filter.py',
+   'PYMODULE'),
+  ('textual._segment_tools',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_segment_tools.py',
+   'PYMODULE'),
+  ('textual._cells',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_cells.py',
+   'PYMODULE'),
+  ('textual.expand_tabs',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\expand_tabs.py',
+   'PYMODULE'),
+  ('textual.render',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\render.py',
+   'PYMODULE'),
+  ('textual.types',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\types.py',
+   'PYMODULE'),
+  ('textual._widget_navigation',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_widget_navigation.py',
+   'PYMODULE'),
+  ('textual._loop',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_loop.py',
+   'PYMODULE'),
+  ('textual._animator',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_animator.py',
+   'PYMODULE'),
+  ('textual.css.scalar_animation',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\css\\scalar_animation.py',
+   'PYMODULE'),
+  ('textual.css',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\css\\__init__.py',
+   'PYMODULE'),
+  ('textual.css.scalar',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\css\\scalar.py',
+   'PYMODULE'),
+  ('textual._easing',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_easing.py',
+   'PYMODULE'),
+  ('textual._compat',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_compat.py',
+   'PYMODULE'),
+  ('textual._time',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_time.py',
+   'PYMODULE'),
+  ('textual._win_sleep',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_win_sleep.py',
+   'PYMODULE'),
+  ('textual.fuzzy',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\fuzzy.py',
+   'PYMODULE'),
+  ('textual.content',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\content.py',
+   'PYMODULE'),
+  ('textual.markup',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\markup.py',
+   'PYMODULE'),
+  ('textual._markup_playground',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_markup_playground.py',
+   'PYMODULE'),
+  ('rich._wrap',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_wrap.py',
+   'PYMODULE'),
+  ('textual.widgets._toast',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_toast.py',
+   'PYMODULE'),
+  ('textual.notifications',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\notifications.py',
+   'PYMODULE'),
+  ('uuid',
+   'C:\\Users\\FATTANI '
+   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\uuid.py',
+   'PYMODULE'),
+  ('platform',
+   'C:\\Users\\FATTANI '
+   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\platform.py',
+   'PYMODULE'),
+  ('textual.signal',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\signal.py',
+   'PYMODULE'),
+  ('textual.selection',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\selection.py',
+   'PYMODULE'),
+  ('textual.renderables.blank',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\renderables\\blank.py',
+   'PYMODULE'),
+  ('textual.renderables',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\renderables\\__init__.py',
+   'PYMODULE'),
+  ('textual.renderables.background_screen',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\renderables\\background_screen.py',
+   'PYMODULE'),
+  ('textual.keys',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\keys.py',
+   'PYMODULE'),
+  ('textual.geometry',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\geometry.py',
+   'PYMODULE'),
+  ('textual.await_complete',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\await_complete.py',
+   'PYMODULE'),
+  ('textual._debug',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_debug.py',
+   'PYMODULE'),
+  ('textual.actions',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\actions.py',
+   'PYMODULE'),
+  ('textual._path',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_path.py',
+   'PYMODULE'),
+  ('textual._compositor',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_compositor.py',
+   'PYMODULE'),
+  ('textual.map_geometry',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\map_geometry.py',
+   'PYMODULE'),
+  ('textual._auto_scroll',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_auto_scroll.py',
+   'PYMODULE'),
+  ('textual._arrange',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_arrange.py',
+   'PYMODULE'),
+  ('textual._partition',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_partition.py',
+   'PYMODULE'),
+  ('textual.messages',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\messages.py',
+   'PYMODULE'),
+  ('textual.errors',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\errors.py',
+   'PYMODULE'),
+  ('textual.constants',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\constants.py',
+   'PYMODULE'),
+  ('textual.message',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\message.py',
+   'PYMODULE'),
+  ('textual.css.types',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\css\\types.py',
+   'PYMODULE'),
+  ('rich.console',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\console.py',
+   'PYMODULE'),
+  ('getpass',
+   'C:\\Users\\FATTANI '
+   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\getpass.py',
+   'PYMODULE'),
+  ('rich._windows_renderer',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_windows_renderer.py',
+   'PYMODULE'),
+  ('rich._win32_console',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_win32_console.py',
+   'PYMODULE'),
+  ('rich.json',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\json.py',
+   'PYMODULE'),
+  ('rich.rule',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\rule.py',
+   'PYMODULE'),
+  ('rich.status',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\status.py',
+   'PYMODULE'),
+  ('rich.spinner',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\spinner.py',
+   'PYMODULE'),
+  ('rich._spinners',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_spinners.py',
+   'PYMODULE'),
+  ('rich.live',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\live.py',
    'PYMODULE'),
   ('rich.live_render',
    'c:\\Users\\FATTANI '
@@ -2602,13 +2778,21 @@
    'c:\\Users\\FATTANI '
    'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\file_proxy.py',
    'PYMODULE'),
+  ('rich.ansi',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\ansi.py',
+   'PYMODULE'),
+  ('pty',
+   'C:\\Users\\FATTANI '
+   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\pty.py',
+   'PYMODULE'),
+  ('tty',
+   'C:\\Users\\FATTANI '
+   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\tty.py',
+   'PYMODULE'),
   ('rich._windows',
    'c:\\Users\\FATTANI '
    'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_windows.py',
-   'PYMODULE'),
-  ('platform',
-   'C:\\Users\\FATTANI '
-   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\platform.py',
    'PYMODULE'),
   ('rich.styled',
    'c:\\Users\\FATTANI '
@@ -2629,6 +2813,258 @@
   ('rich.__main__',
    'c:\\Users\\FATTANI '
    'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\__main__.py',
+   'PYMODULE'),
+  ('rich.markup',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\markup.py',
+   'PYMODULE'),
+  ('rich.emoji',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\emoji.py',
+   'PYMODULE'),
+  ('rich._emoji_codes',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_emoji_codes.py',
+   'PYMODULE'),
+  ('rich._log_render',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_log_render.py',
+   'PYMODULE'),
+  ('rich._fileno',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_fileno.py',
+   'PYMODULE'),
+  ('rich._export_format',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_export_format.py',
+   'PYMODULE'),
+  ('rich._emoji_replace',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_emoji_replace.py',
+   'PYMODULE'),
+  ('rich._null_file',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_null_file.py',
+   'PYMODULE'),
+  ('typing_extensions',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\typing_extensions.py',
+   'PYMODULE'),
+  ('textual.worker_manager',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\worker_manager.py',
+   'PYMODULE'),
+  ('textual.walk',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\walk.py',
+   'PYMODULE'),
+  ('textual.timer',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\timer.py',
+   'PYMODULE'),
+  ('textual.style',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\style.py',
+   'PYMODULE'),
+  ('textual.message_pump',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\message_pump.py',
+   'PYMODULE'),
+  ('textual.getters',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\getters.py',
+   'PYMODULE'),
+  ('textual.css.model',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\css\\model.py',
+   'PYMODULE'),
+  ('textual.css._help_renderables',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\css\\_help_renderables.py',
+   'PYMODULE'),
+  ('textual._queue',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_queue.py',
+   'PYMODULE'),
+  ('textual._on',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_on.py',
+   'PYMODULE'),
+  ('textual.css.tokenizer',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\css\\tokenizer.py',
+   'PYMODULE'),
+  ('textual.suggestions',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\suggestions.py',
+   'PYMODULE'),
+  ('textual.css.tokenize',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\css\\tokenize.py',
+   'PYMODULE'),
+  ('textual._profile',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_profile.py',
+   'PYMODULE'),
+  ('textual.css.styles',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\css\\styles.py',
+   'PYMODULE'),
+  ('textual.css.transition',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\css\\transition.py',
+   'PYMODULE'),
+  ('textual.css._style_properties',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\css\\_style_properties.py',
+   'PYMODULE'),
+  ('textual.layouts.factory',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\layouts\\factory.py',
+   'PYMODULE'),
+  ('textual.layouts',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\layouts\\__init__.py',
+   'PYMODULE'),
+  ('textual.layouts.vertical',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\layouts\\vertical.py',
+   'PYMODULE'),
+  ('textual._resolve',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_resolve.py',
+   'PYMODULE'),
+  ('textual.box_model',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\box_model.py',
+   'PYMODULE'),
+  ('textual.layouts.stream',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\layouts\\stream.py',
+   'PYMODULE'),
+  ('textual.layouts.horizontal',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\layouts\\horizontal.py',
+   'PYMODULE'),
+  ('textual.canvas',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\canvas.py',
+   'PYMODULE'),
+  ('textual._box_drawing',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_box_drawing.py',
+   'PYMODULE'),
+  ('textual.css._help_text',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\css\\_help_text.py',
+   'PYMODULE'),
+  ('textual._border',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_border.py',
+   'PYMODULE'),
+  ('textual.css.query',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\css\\query.py',
+   'PYMODULE'),
+  ('textual.await_remove',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\await_remove.py',
+   'PYMODULE'),
+  ('textual.css.parse',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\css\\parse.py',
+   'PYMODULE'),
+  ('textual.css._styles_builder',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\css\\_styles_builder.py',
+   'PYMODULE'),
+  ('textual._duration',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_duration.py',
+   'PYMODULE'),
+  ('textual.css.match',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\css\\match.py',
+   'PYMODULE'),
+  ('textual.css.errors',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\css\\errors.py',
+   'PYMODULE'),
+  ('textual.css.constants',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\css\\constants.py',
+   'PYMODULE'),
+  ('textual.css._error_tools',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\css\\_error_tools.py',
+   'PYMODULE'),
+  ('textual.color',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\color.py',
+   'PYMODULE'),
+  ('textual._color_constants',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_color_constants.py',
+   'PYMODULE'),
+  ('textual.cache',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\cache.py',
+   'PYMODULE'),
+  ('textual._node_list',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_node_list.py',
+   'PYMODULE'),
+  ('textual._context',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_context.py',
+   'PYMODULE'),
+  ('rich.tree',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\tree.py',
+   'PYMODULE'),
+  ('rich.text',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\text.py',
+   'PYMODULE'),
+  ('rich.style',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\style.py',
+   'PYMODULE'),
+  ('rich.highlighter',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\highlighter.py',
+   'PYMODULE'),
+  ('textual._types',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_types.py',
+   'PYMODULE'),
+  ('textual._callback',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_callback.py',
+   'PYMODULE'),
+  ('textual.events',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\events.py',
+   'PYMODULE'),
+  ('rich.repr',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\repr.py',
+   'PYMODULE'),
+  ('textual.layouts.grid',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\layouts\\grid.py',
+   'PYMODULE'),
+  ('textual.layout',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\layout.py',
+   'PYMODULE'),
+  ('textual._spatial_map',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_spatial_map.py',
+   'PYMODULE'),
+  ('textual.binding',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\binding.py',
    'PYMODULE'),
   ('rich.markdown',
    'c:\\Users\\FATTANI '
@@ -3014,21 +3450,449 @@
    'c:\\Users\\FATTANI '
    'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\markdown_it\\helpers\\parse_link_destination.py',
    'PYMODULE'),
-  ('rich._log_render',
+  ('textual.widgets._tree',
    'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_log_render.py',
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_tree.py',
    'PYMODULE'),
-  ('rich._fileno',
+  ('textual.scroll_view',
    'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_fileno.py',
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\scroll_view.py',
    'PYMODULE'),
-  ('rich._export_format',
+  ('textual._immutable_sequence_view',
    'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_export_format.py',
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_immutable_sequence_view.py',
    'PYMODULE'),
-  ('rich._null_file',
+  ('textual.widgets._tooltip',
    'c:\\Users\\FATTANI '
-   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\rich\\_null_file.py',
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_tooltip.py',
+   'PYMODULE'),
+  ('textual.widgets._text_area',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_text_area.py',
+   'PYMODULE'),
+  ('textual.document._wrapped_document',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\document\\_wrapped_document.py',
+   'PYMODULE'),
+  ('textual.document',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\document\\__init__.py',
+   'PYMODULE'),
+  ('textual._wrap',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_wrap.py',
+   'PYMODULE'),
+  ('textual.document._syntax_aware_document',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\document\\_syntax_aware_document.py',
+   'PYMODULE'),
+  ('textual.document._history',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\document\\_history.py',
+   'PYMODULE'),
+  ('textual.document._edit',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\document\\_edit.py',
+   'PYMODULE'),
+  ('textual.document._document_navigator',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\document\\_document_navigator.py',
+   'PYMODULE'),
+  ('textual.document._document',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\document\\_document.py',
+   'PYMODULE'),
+  ('textual._tree_sitter',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_tree_sitter.py',
+   'PYMODULE'),
+  ('textual._text_area_theme',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_text_area_theme.py',
+   'PYMODULE'),
+  ('textual.widgets._tabs',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_tabs.py',
+   'PYMODULE'),
+  ('textual.renderables.bar',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\renderables\\bar.py',
+   'PYMODULE'),
+  ('textual.widgets._tabbed_content',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_tabbed_content.py',
+   'PYMODULE'),
+  ('textual.widgets._switch',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_switch.py',
+   'PYMODULE'),
+  ('textual.scrollbar',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\scrollbar.py',
+   'PYMODULE'),
+  ('textual.widgets._static',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_static.py',
+   'PYMODULE'),
+  ('textual.widgets._sparkline',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_sparkline.py',
+   'PYMODULE'),
+  ('textual.renderables.sparkline',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\renderables\\sparkline.py',
+   'PYMODULE'),
+  ('textual.renderables._blend_colors',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\renderables\\_blend_colors.py',
+   'PYMODULE'),
+  ('textual.widgets._selection_list',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_selection_list.py',
+   'PYMODULE'),
+  ('textual.widgets._toggle_button',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_toggle_button.py',
+   'PYMODULE'),
+  ('textual.widgets._select',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_select.py',
+   'PYMODULE'),
+  ('textual.widgets._rule',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_rule.py',
+   'PYMODULE'),
+  ('textual.widgets._rich_log',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_rich_log.py',
+   'PYMODULE'),
+  ('textual.widgets._radio_set',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_radio_set.py',
+   'PYMODULE'),
+  ('textual.widgets._radio_button',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_radio_button.py',
+   'PYMODULE'),
+  ('textual.widgets._progress_bar',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_progress_bar.py',
+   'PYMODULE'),
+  ('textual.eta',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\eta.py',
+   'PYMODULE'),
+  ('textual.clock',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\clock.py',
+   'PYMODULE'),
+  ('textual.widgets._pretty',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_pretty.py',
+   'PYMODULE'),
+  ('textual.widgets._placeholder',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_placeholder.py',
+   'PYMODULE'),
+  ('textual.widgets._option_list',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_option_list.py',
+   'PYMODULE'),
+  ('textual.widgets._masked_input',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_masked_input.py',
+   'PYMODULE'),
+  ('textual.validation',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\validation.py',
+   'PYMODULE'),
+  ('textual.widgets._markdown',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_markdown.py',
+   'PYMODULE'),
+  ('textual.highlight',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\highlight.py',
+   'PYMODULE'),
+  ('textual._slug',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_slug.py',
+   'PYMODULE'),
+  ('textual.widgets._log',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_log.py',
+   'PYMODULE'),
+  ('textual._line_split',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_line_split.py',
+   'PYMODULE'),
+  ('textual.widgets._loading_indicator',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_loading_indicator.py',
+   'PYMODULE'),
+  ('textual.widgets._list_view',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_list_view.py',
+   'PYMODULE'),
+  ('textual.widgets._list_item',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_list_item.py',
+   'PYMODULE'),
+  ('textual.widgets._link',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_link.py',
+   'PYMODULE'),
+  ('textual.widgets._label',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_label.py',
+   'PYMODULE'),
+  ('textual.widgets._key_panel',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_key_panel.py',
+   'PYMODULE'),
+  ('textual.widgets._input',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_input.py',
+   'PYMODULE'),
+  ('textual.suggester',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\suggester.py',
+   'PYMODULE'),
+  ('textual.widgets._help_panel',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_help_panel.py',
+   'PYMODULE'),
+  ('textual.widgets._header',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_header.py',
+   'PYMODULE'),
+  ('textual.widgets._footer',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_footer.py',
+   'PYMODULE'),
+  ('textual.widgets._directory_tree',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_directory_tree.py',
+   'PYMODULE'),
+  ('textual.widgets._digits',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_digits.py',
+   'PYMODULE'),
+  ('textual.renderables.digits',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\renderables\\digits.py',
+   'PYMODULE'),
+  ('textual.widgets._data_table',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_data_table.py',
+   'PYMODULE'),
+  ('textual.renderables.styled',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\renderables\\styled.py',
+   'PYMODULE'),
+  ('textual.coordinate',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\coordinate.py',
+   'PYMODULE'),
+  ('textual._two_way_dict',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_two_way_dict.py',
+   'PYMODULE'),
+  ('textual.widgets._content_switcher',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_content_switcher.py',
+   'PYMODULE'),
+  ('textual.widgets._collapsible',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_collapsible.py',
+   'PYMODULE'),
+  ('textual.widgets._checkbox',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_checkbox.py',
+   'PYMODULE'),
+  ('textual.widgets._button',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widgets\\_button.py',
+   'PYMODULE'),
+  ('textual',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\__init__.py',
+   'PYMODULE'),
+  ('textual._work_decorator',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_work_decorator.py',
+   'PYMODULE'),
+  ('textual._log',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_log.py',
+   'PYMODULE'),
+  ('textual.widget',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\widget.py',
+   'PYMODULE'),
+  ('textual.rlock',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\rlock.py',
+   'PYMODULE'),
+  ('textual.compose',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\compose.py',
+   'PYMODULE'),
+  ('textual._styles_cache',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_styles_cache.py',
+   'PYMODULE'),
+  ('textual.renderables.tint',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\renderables\\tint.py',
+   'PYMODULE'),
+  ('textual.renderables.text_opacity',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\renderables\\text_opacity.py',
+   'PYMODULE'),
+  ('textual._opacity',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_opacity.py',
+   'PYMODULE'),
+  ('textual._ansi_theme',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_ansi_theme.py',
+   'PYMODULE'),
+  ('textual._extrema',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_extrema.py',
+   'PYMODULE'),
+  ('textual._dispatch_key',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_dispatch_key.py',
+   'PYMODULE'),
+  ('textual.case',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\case.py',
+   'PYMODULE'),
+  ('textual.app',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\app.py',
+   'PYMODULE'),
+  ('textual.drivers.linux_inline_driver',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\drivers\\linux_inline_driver.py',
+   'PYMODULE'),
+  ('textual.drivers',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\drivers\\__init__.py',
+   'PYMODULE'),
+  ('textual.drivers.win32',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\drivers\\win32.py',
+   'PYMODULE'),
+  ('textual._xterm_parser',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_xterm_parser.py',
+   'PYMODULE'),
+  ('textual._keyboard_protocol',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_keyboard_protocol.py',
+   'PYMODULE'),
+  ('textual._parser',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_parser.py',
+   'PYMODULE'),
+  ('textual.drivers.headless_driver',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\drivers\\headless_driver.py',
+   'PYMODULE'),
+  ('textual.drivers.linux_driver',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\drivers\\linux_driver.py',
+   'PYMODULE'),
+  ('textual.drivers._writer_thread',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\drivers\\_writer_thread.py',
+   'PYMODULE'),
+  ('textual.drivers.windows_driver',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\drivers\\windows_driver.py',
+   'PYMODULE'),
+  ('textual.system_commands',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\system_commands.py',
+   'PYMODULE'),
+  ('textual.pilot',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\pilot.py',
+   'PYMODULE'),
+  ('textual.theme',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\theme.py',
+   'PYMODULE'),
+  ('textual.design',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\design.py',
+   'PYMODULE'),
+  ('textual.file_monitor',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\file_monitor.py',
+   'PYMODULE'),
+  ('textual.features',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\features.py',
+   'PYMODULE'),
+  ('textual.driver',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\driver.py',
+   'PYMODULE'),
+  ('textual.css.stylesheet',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\css\\stylesheet.py',
+   'PYMODULE'),
+  ('textual._wait',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_wait.py',
+   'PYMODULE'),
+  ('textual._files',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_files.py',
+   'PYMODULE'),
+  ('textual._event_broker',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_event_broker.py',
+   'PYMODULE'),
+  ('textual._ansi_sequences',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual\\_ansi_sequences.py',
+   'PYMODULE'),
+  ('platformdirs',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\platformdirs\\__init__.py',
+   'PYMODULE'),
+  ('platformdirs.android',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\platformdirs\\android.py',
+   'PYMODULE'),
+  ('platformdirs.unix',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\platformdirs\\unix.py',
+   'PYMODULE'),
+  ('platformdirs._xdg',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\platformdirs\\_xdg.py',
+   'PYMODULE'),
+  ('platformdirs.macos',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\platformdirs\\macos.py',
+   'PYMODULE'),
+  ('platformdirs.windows',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\platformdirs\\windows.py',
+   'PYMODULE'),
+  ('platformdirs.version',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\platformdirs\\version.py',
+   'PYMODULE'),
+  ('platformdirs.api',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\platformdirs\\api.py',
    'PYMODULE'),
   ('psutil',
    'c:\\Users\\FATTANI '
@@ -3110,6 +3974,10 @@
    'C:\\Users\\FATTANI '
    'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_asyncio.pyd',
    'EXTENSION'),
+  ('_uuid.pyd',
+   'C:\\Users\\FATTANI '
+   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_uuid.pyd',
+   'EXTENSION'),
   ('_wmi.pyd',
    'C:\\Users\\FATTANI '
    'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_wmi.pyd',
@@ -3144,41 +4012,65 @@
    'BINARY')],
  [],
  [],
- [('base_library.zip',
+ [('textual-8.2.8.dist-info\\licenses\\LICENSE',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual-8.2.8.dist-info\\licenses\\LICENSE',
+   'DATA'),
+  ('textual-8.2.8.dist-info\\WHEEL',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual-8.2.8.dist-info\\WHEEL',
+   'DATA'),
+  ('textual-8.2.8.dist-info\\REQUESTED',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual-8.2.8.dist-info\\REQUESTED',
+   'DATA'),
+  ('textual-8.2.8.dist-info\\INSTALLER',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual-8.2.8.dist-info\\INSTALLER',
+   'DATA'),
+  ('textual-8.2.8.dist-info\\METADATA',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual-8.2.8.dist-info\\METADATA',
+   'DATA'),
+  ('textual-8.2.8.dist-info\\RECORD',
+   'c:\\Users\\FATTANI '
+   'COMPUTERS\\Documents\\Terminal-Performance-Manager\\.venv\\Lib\\site-packages\\textual-8.2.8.dist-info\\RECORD',
+   'DATA'),
+  ('base_library.zip',
    'C:\\Users\\FATTANI '
    'COMPUTERS\\Documents\\Terminal-Performance-Manager\\build\\TerminalPerformanceManager\\base_library.zip',
    'DATA')],
- [('enum',
+ [('keyword',
    'C:\\Users\\FATTANI '
-   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\enum.py',
-   'PYMODULE'),
-  ('heapq',
-   'C:\\Users\\FATTANI '
-   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\heapq.py',
-   'PYMODULE'),
-  ('copyreg',
-   'C:\\Users\\FATTANI '
-   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\copyreg.py',
-   'PYMODULE'),
-  ('types',
-   'C:\\Users\\FATTANI '
-   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\types.py',
+   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\keyword.py',
    'PYMODULE'),
   ('functools',
    'C:\\Users\\FATTANI '
    'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\functools.py',
    'PYMODULE'),
-  ('io',
+  ('linecache',
    'C:\\Users\\FATTANI '
-   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\io.py',
+   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\linecache.py',
    'PYMODULE'),
-  ('locale',
+  ('types',
    'C:\\Users\\FATTANI '
-   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\locale.py',
+   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\types.py',
    'PYMODULE'),
-  ('stat',
+  ('collections',
    'C:\\Users\\FATTANI '
-   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\stat.py',
+   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\collections\\__init__.py',
+   'PYMODULE'),
+  ('sre_constants',
+   'C:\\Users\\FATTANI '
+   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\sre_constants.py',
+   'PYMODULE'),
+  ('_collections_abc',
+   'C:\\Users\\FATTANI '
+   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\_collections_abc.py',
+   'PYMODULE'),
+  ('warnings',
+   'C:\\Users\\FATTANI '
+   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\warnings.py',
    'PYMODULE'),
   ('re._parser',
    'C:\\Users\\FATTANI '
@@ -3200,45 +4092,9 @@
    'C:\\Users\\FATTANI '
    'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\re\\__init__.py',
    'PYMODULE'),
-  ('sre_compile',
+  ('copyreg',
    'C:\\Users\\FATTANI '
-   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\sre_compile.py',
-   'PYMODULE'),
-  ('collections',
-   'C:\\Users\\FATTANI '
-   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\collections\\__init__.py',
-   'PYMODULE'),
-  ('posixpath',
-   'C:\\Users\\FATTANI '
-   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\posixpath.py',
-   'PYMODULE'),
-  ('codecs',
-   'C:\\Users\\FATTANI '
-   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\codecs.py',
-   'PYMODULE'),
-  ('reprlib',
-   'C:\\Users\\FATTANI '
-   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\reprlib.py',
-   'PYMODULE'),
-  ('sre_constants',
-   'C:\\Users\\FATTANI '
-   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\sre_constants.py',
-   'PYMODULE'),
-  ('genericpath',
-   'C:\\Users\\FATTANI '
-   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\genericpath.py',
-   'PYMODULE'),
-  ('abc',
-   'C:\\Users\\FATTANI '
-   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\abc.py',
-   'PYMODULE'),
-  ('weakref',
-   'C:\\Users\\FATTANI '
-   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\weakref.py',
-   'PYMODULE'),
-  ('os',
-   'C:\\Users\\FATTANI '
-   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\os.py',
+   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\copyreg.py',
    'PYMODULE'),
   ('encodings.zlib_codec',
    'C:\\Users\\FATTANI '
@@ -3732,39 +4588,75 @@
    'C:\\Users\\FATTANI '
    'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\encodings\\__init__.py',
    'PYMODULE'),
-  ('sre_parse',
-   'C:\\Users\\FATTANI '
-   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\sre_parse.py',
-   'PYMODULE'),
-  ('_collections_abc',
-   'C:\\Users\\FATTANI '
-   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\_collections_abc.py',
-   'PYMODULE'),
   ('operator',
    'C:\\Users\\FATTANI '
    'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\operator.py',
    'PYMODULE'),
-  ('keyword',
+  ('abc',
    'C:\\Users\\FATTANI '
-   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\keyword.py',
+   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\abc.py',
    'PYMODULE'),
-  ('linecache',
+  ('reprlib',
    'C:\\Users\\FATTANI '
-   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\linecache.py',
+   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\reprlib.py',
    'PYMODULE'),
-  ('warnings',
+  ('genericpath',
    'C:\\Users\\FATTANI '
-   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\warnings.py',
+   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\genericpath.py',
+   'PYMODULE'),
+  ('stat',
+   'C:\\Users\\FATTANI '
+   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\stat.py',
+   'PYMODULE'),
+  ('locale',
+   'C:\\Users\\FATTANI '
+   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\locale.py',
+   'PYMODULE'),
+  ('posixpath',
+   'C:\\Users\\FATTANI '
+   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\posixpath.py',
+   'PYMODULE'),
+  ('sre_compile',
+   'C:\\Users\\FATTANI '
+   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\sre_compile.py',
+   'PYMODULE'),
+  ('heapq',
+   'C:\\Users\\FATTANI '
+   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\heapq.py',
+   'PYMODULE'),
+  ('ntpath',
+   'C:\\Users\\FATTANI '
+   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\ntpath.py',
    'PYMODULE'),
   ('_weakrefset',
    'C:\\Users\\FATTANI '
    'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\_weakrefset.py',
    'PYMODULE'),
+  ('codecs',
+   'C:\\Users\\FATTANI '
+   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\codecs.py',
+   'PYMODULE'),
   ('traceback',
    'C:\\Users\\FATTANI '
    'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\traceback.py',
    'PYMODULE'),
-  ('ntpath',
+  ('io',
    'C:\\Users\\FATTANI '
-   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\ntpath.py',
+   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\io.py',
+   'PYMODULE'),
+  ('enum',
+   'C:\\Users\\FATTANI '
+   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\enum.py',
+   'PYMODULE'),
+  ('sre_parse',
+   'C:\\Users\\FATTANI '
+   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\sre_parse.py',
+   'PYMODULE'),
+  ('os',
+   'C:\\Users\\FATTANI '
+   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\os.py',
+   'PYMODULE'),
+  ('weakref',
+   'C:\\Users\\FATTANI '
+   'COMPUTERS\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\weakref.py',
    'PYMODULE')])
