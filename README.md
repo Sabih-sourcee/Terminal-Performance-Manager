@@ -33,5 +33,15 @@ python monitor.py
 ```
 
 # process tracking
+
 - IDK about that i need to add the OOPS at this project
 - when i have started the plan then realise that for the better UI and Working of project i need to use OOPS
+
+# progress
+
+- Today i submimtted the project on macondo
+- they replied with a review
+
+# First Review
+
+- It was like bro first make it into an executabe file and then submit so yeah i did it
